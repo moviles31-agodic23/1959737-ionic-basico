@@ -1,6 +1,6 @@
 const btnCalcular = document.getElementById('calcular');
 const total = document.getElementById('total');
-const lista = document.getElementById('lista');
+const lista = document.getElementById('output');
 const precio= document.getElementById('precio');
 const articulo= document.getElementById('articulo');
 function createElement(){

@@ -1,56 +1,20 @@
-.container{
+ion-grid{
+    padding: 10%;
+}
+.main{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    gap: 15px;    
+    gap: 10px;
 }
-.holder{
-    width: 100%;
+body{
     display: flex;
     align-items: center;
-    gap: 15px;
+    justify-content: center;
+    min-width: 100vw;
+    min-height: 100vh;
 }
-.label{
-    display: inline-block;
-    width: 100px;
-    text-align: center;
-}
-.input{
-    border-radius: 0;
-    border: 0px;
-    background: #dad7d7;
-    transition: 0.5s;
-}
-.input:hover{
-    background: #46638b;
-}
-#calcular{
-    border-radius: 15px;
-    background: #982d96;
-    border: none;
-    min-width: 35%;
-    margin-top: 10px;
-    height: 50px;
-    color: beige;
-    width: fit-content;
-    align-self: center;
-    font-size: 30px;
-    
-}
-.body{
-    width:40%;
-    height: 50%;
-    flex-direction: column;
-    display: flex;
-    gap: 15px;
-    align-items: center;
-}
-@media (max-width:375px) {
-    .body{
-        height: 50%;
-        flex-direction: column;
-        display: flex;
-        gap: 15px;
-        align-items: center;
-    }
+ion-button{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 1.2em;
 }
